@@ -1,0 +1,66 @@
+{
+<<<<<<< HEAD
+    "name": "nftmarkeplace",
+    "version": "1.0.0",
+    "description": "Custom Celo Composer project.",
+    "private": true,
+    "author": "Celo",
+    "license": "MIT",
+    "scripts": {
+        "react-app:dev": "yarn workspace @nftmarkeplace/react-app dev",
+        "react-app:build": "yarn workspace @nftmarkeplace/react-app build",
+        "react-app:start": "yarn workspace @nftmarkeplace/react-app start",
+        "react-app:lint": "yarn workspace @nftmarkeplace/react-app lint",
+        "hardhat:compile": "yarn workspace @nftmarkeplace/hardhat compile"
+    },
+=======
+    "name": "@celo/celo-composer",
+    "version": "1.0.14",
+    "description": "Get started building dApps on Celo",
+>>>>>>> 8bd5c0e15b715fadae1043b98ca8b114b521a10e
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/celo-org/celo-composer.git"
+    },
+<<<<<<< HEAD
+=======
+    "author": "celo",
+    "license": "MIT",
+>>>>>>> 8bd5c0e15b715fadae1043b98ca8b114b521a10e
+    "bugs": {
+        "url": "https://github.com/celo-org/celo-composer/issues"
+    },
+    "homepage": "https://github.com/celo-org/celo-composer/blob/main/README.md",
+    "workspaces": [
+<<<<<<< HEAD
+        "packages/*"
+    ],
+    "keywords": [
+        "celo-composer",
+        "celo"
+=======
+        "bin/*"
+    ],
+    "dependencies": {
+        "chalk": "4.1.2",
+        "commander": "^9.4.0",
+        "fs-extra": "^10.1.0",
+        "inquirer": "^8.2.4",
+        "node-emoji": "^1.11.0",
+        "ora": "5.4.1",
+        "shelljs": "^0.8.5",
+        "yargs": "17.5.1"
+    },
+    "main": "bin/index.js",
+    "keywords": [
+        "celo-composer",
+        "celo"
+    ],
+    "bin": {
+        "celo-composer": "bin/index.js"
+    },
+    "files": [
+        "bin"
+>>>>>>> 8bd5c0e15b715fadae1043b98ca8b114b521a10e
+    ]
+}
